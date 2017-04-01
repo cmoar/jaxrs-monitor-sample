@@ -1,0 +1,4 @@
+#gitignore
+
+nb-configuration.xml
+target/
