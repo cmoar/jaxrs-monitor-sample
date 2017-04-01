@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package net.byte23.boundary;
+package com.github.tnsasse.boundary;
 
 import java.time.Instant;
 import javax.ejb.Stateless;

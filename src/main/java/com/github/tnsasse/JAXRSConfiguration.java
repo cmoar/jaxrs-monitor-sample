@@ -1,4 +1,4 @@
-package net.byte23;
+package com.github.tnsasse;
 
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
