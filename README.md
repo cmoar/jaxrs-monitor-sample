@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/tnsasse/jaxrs-monitor-sample.svg?branch=master)](https://travis-ci.org/tnsasse/jaxrs-monitor-sample)
+
 # jaxrs-monitor-sample
 Sample application for [jaxrs-monitor](https://github.com/tnsasse/jaxrs-monitor).
 
