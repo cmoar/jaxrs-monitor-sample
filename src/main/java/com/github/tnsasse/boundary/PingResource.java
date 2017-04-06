@@ -3,9 +3,7 @@ package com.github.tnsasse.boundary;
 import com.github.tnsasse.jaxrsmonitor.boundary.MonitoringConfiguration;
 
 import java.time.Instant;
-import java.util.logging.Logger;
 
-import javax.annotation.PostConstruct;
 import javax.ejb.Stateless;
 import javax.inject.Inject;
 import javax.json.Json;
@@ -28,10 +26,6 @@ import javax.ws.rs.core.Response;
 @Path("/ping")
 @Produces(MediaType.APPLICATION_JSON)
 public class PingResource {
-
-  @Inject
-  MonitoringConfiguration configuration; // optional
-
 
   @GET
   public JsonObject getPing() {
